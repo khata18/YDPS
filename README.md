@@ -1,2 +1,0 @@
-# YDPS
-Website for YDPS
