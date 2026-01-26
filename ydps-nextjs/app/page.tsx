@@ -21,6 +21,17 @@ export default function HomePage() {
               <a id="our-offers" href="/services">Our Offers</a>
             </div>
           </div>
+            <video id="water" autoPlay loop muted aria-label="video of water supply">
+              <source src="/videos/YDPS-herovid.mp4" type="video/mp4"/>
+            </video>
+        </section>
+        <p id="line">To embody our excellent service, we introduce...</p>
+        <section id="body2">
+          <div id="leftbody2">
+            <h2>YDPS Dashboard</h2>
+            <p>The customer dashboard allows users to track water consumption, view current and past bills, and receive real-time notifications for due dates and payments. Customers can also download invoices, check payment statuses, and monitor usage trends through interactive graphs, ensuring a clear and hassle-free billing experience.</p>
+            <a href="/login">Sign Up</a>
+          </div>
         </section>
       </main>
     </div>
