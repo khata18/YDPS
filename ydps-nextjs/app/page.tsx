@@ -32,8 +32,28 @@ export default function HomePage() {
             <p>The customer dashboard allows users to track water consumption, view current and past bills, and receive real-time notifications for due dates and payments. Customers can also download invoices, check payment statuses, and monitor usage trends through interactive graphs, ensuring a clear and hassle-free billing experience.</p>
             <a href="/login">Sign Up</a>
           </div>
+          <video id="dashboard" autoPlay loop muted aria-label="video of dashboard">
+            <source src="/videos/Dashboard 3.mp4" type="video/mp4"/>
+          </video>
         </section>
       </main>
+      <footer>
+        <div id="footer-left">
+          <div id="footer-left1">
+            <a id="logo_link" href="/">
+              <img className="logo" src="/imgages/ydps-logo-removedbg.png" alt="YDPS logo"/>
+            </a>
+            <p id="copyright">&copy; 2025 YDPS All rights reserved.</p>
+          </div>
+          <p id="created">Website created by Kosei Hatakenaka</p>
+        </div>
+        <p id="footer-line"></p>
+        <div id="footer-right">
+        <p>Phone Number: +639660866698</p>
+        <p>Email: ydps@gmail.com</p>
+        <p>Location: Mohon, Talisay, Cebu Ph, 6045</p>
+      </div>
+      </footer>
     </div>
   )
 }
