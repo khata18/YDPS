@@ -41,7 +41,7 @@ export default function HomePage() {
         <div id="footer-left">
           <div id="footer-left1">
             <a id="logo_link" href="/">
-              <img className="logo" src="/imgages/ydps-logo-removedbg.png" alt="YDPS logo"/>
+              <img className="logo" src="/images/ydps-logo-removedbg.png" alt="YDPS logo"/>
             </a>
             <p id="copyright">&copy; 2025 YDPS All rights reserved.</p>
           </div>
