@@ -1,5 +1,4 @@
 
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
 
 #content {
   max-width: 1600px;
@@ -66,7 +65,7 @@ nav:hover a:not(:hover) {
   transition: 0.5s;
 }
 
-/* Define initial state for the pseudo-element */
+
 nav a:not(#login)::after {
   content: "";
   position: absolute;
